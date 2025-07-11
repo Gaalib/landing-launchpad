@@ -111,6 +111,7 @@ body {
   border-radius: 10px;
   max-width: 800px;
   margin: 40px auto;
+  margin-top: 100px;
   
 }
 
@@ -141,4 +142,57 @@ body {
     color: #0800ff;
     font-size: 50px;
      
+}
+
+/* This is feedBack Section */
+
+.feedback_title h1{
+    padding: 30px;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+     font-family: 'Raleway', sans-serif ;
+}
+
+.feedback_card h4 {
+    font-family: 'Raleway', sans-serif ;
+   margin-top: 10px;
+}
+.feedback_card p{
+    font-family: 'Raleway', sans-serif ;
+    font-size: 12px;
+   margin-top: 10px;
+}
+
+
+.feedback_section{
+   padding: 0 250px;
+    display: flex;
+    justify-content:space-around;
+   }
+
+.user_icon{
+    display: flex;
+   margin-top: 20px;
+}
+
+.whole_feedback_Card{
+    padding: 40px;
+  
+}
+
+.user_icon img{
+    border-radius: 50%;
+}
+
+.user_icon h4{
+  margin-top: 10px;
+  margin-left: 10px;
+   font-family: 'Raleway', sans-serif ;
+}
+
+.user_icon p{
+    font-size: small;
+    font-weight: 300;
+     font-family: 'Raleway', sans-serif ;
 }
