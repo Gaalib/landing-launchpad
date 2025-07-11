@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #f5F8FF;
 }
 
 body {
@@ -65,3 +66,37 @@ body {
     font-size: 45px;
 }
 
+/* This is Action Section */
+
+.Action_Section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Action_img img{
+    border-radius: 50px;
+    height: 250px;
+    
+}
+
+
+.Action_title h2{
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif ;
+   margin-bottom: 20px;
+    
+   
+    
+}
+
+.Action_title p{
+     text-align: left;
+     font-family: 'Raleway', sans-serif ;
+     text-align: left;
+}
+
+.Action_title button{
+   margin-top: 20px;
+
+}
