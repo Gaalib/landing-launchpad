@@ -239,3 +239,60 @@ body {
     background-color: white;
     border-radius: 10px;
 }
+
+
+
+/* This is form section */
+
+
+.contact_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+  padding: 60px;
+  border-radius: 10px;
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.contact_text h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0d0d0d;
+  line-height: 1.2;
+}
+
+.contact_form {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact_form label {
+  font-size: 14px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.contact_form input,
+.contact_form textarea {
+  padding: 12px 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  resize: none;
+}
+
+.contact_form textarea {
+  height: 100px;
+}
+
+.contact_form button {
+  margin-top: 20px;
+}
