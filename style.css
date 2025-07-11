@@ -100,3 +100,45 @@ body {
    margin-top: 20px;
 
 }
+
+
+/* This is productive_user_section */
+
+.productive_user_section {
+  background-color: #d7d9f5;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 40px auto;
+  
+}
+
+.productive_user_section h2{
+      background-color: #d7d9f5;
+       font-family: 'Raleway', sans-serif ;
+       font-size: 25px;
+}
+
+.user_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-top: 30px;
+   background-color:#d7d9f5;
+  
+}
+
+.user p{
+    background-color: #d7d9f5;
+    padding: 10px;
+     font-family: 'Raleway', sans-serif ;
+}
+
+.user h1{
+    background-color: #d7d9f5;
+    color: #0800ff;
+    font-size: 50px;
+     
+}
