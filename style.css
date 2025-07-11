@@ -196,3 +196,46 @@ body {
     font-weight: 300;
      font-family: 'Raleway', sans-serif ;
 }
+
+
+
+/* This is focus Section */
+
+
+.focus{
+    
+    padding: 0 250px;
+
+    text-align: center;
+}
+
+
+.focus_contant img{
+    height: 250px;
+    width: 600px;
+    border-radius: 20px;
+}
+
+.focus_contant h1{
+    margin: 20px ;
+     font-family: 'Raleway', sans-serif ;
+     background-color: white;
+}
+
+.focus_contant p{
+    margin: 20px ;
+    font-size: 15px;
+     font-family: 'Raleway', sans-serif ;
+     background-color: white;
+
+}
+
+.focus_contant button{
+    margin: 20px;
+}
+
+.focus_contant{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
